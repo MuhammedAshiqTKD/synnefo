@@ -21,7 +21,9 @@
     border: 2px solid red;
 }
 .shadow{
-    box-shadow: 5px 5px 10px black;
+    -webkit-box-shadow: -1px 1px 10px 8px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 1px 10px 8px rgba(0,0,0,0.35);
+    box-shadow: -1px 1px 10px 8px rgba(0,0,0,0.35);
     margin: 5px;
 }
 .img1{
